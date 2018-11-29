@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="memes"
+          fetch="https://github.com/simsmemeshop"
+          revision="pie" />
+
+  <remote  name="invictrix"
+           revision="inv-9.0"
+           fetch="https://github.com/InvictrixROM/"
+           review="review.invictrix.com" />
+
+  <project path="packages/overlays/Memes" name="packages_overlays_memes" remote="memes" />
+  <project path="packages/apps/ExtraSettings" name="packages_apps_ExtraSettings" remote="memes" />
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="memes" />
+  <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="invictrix" />
+</manifest>
